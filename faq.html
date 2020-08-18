@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/19ab91f7bd.js" crossorigin="anonymous"></script>
+    <!--     <script data-main="scripts/main" src="./scripts/require.js"></script>
+ -->
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="navbar-center">
+
+            <div class="menu-btn" >
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="logo-div">
+                <a href="./index.html">
+                    <img src="./images/logo.svg" alt="logo" class="logo">
+                </a>
+            </div>
+
+            <div class="main-menu-div">
+                <ul class="main-menu">
+                    <li><a href="./productos.html">Productos</a></li>
+                    <li><a href="./about.html">Quiénes somos</a></li>
+                    <li><a href="./faq.html">FAQ</a></li>
+                    <li><a href="./contact.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="right-icons">
+                <div class="search-btn">
+                    <span class="nav-icon">
+                        <i class="fas fa-search"></i>
+                    </span>
+                </div>
+                <div class="cart-btn">
+                    <span class="nav-icon">
+                        <i class="fas fa-cart-plus"></i>
+                    </span>
+                    <div class="cart-items">0</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+            <h1 class="banner-title">FAQ</h1>
+    <!-- fold menu -->
+    <div class="menu-overlay">
+        <div class="fold-menu">
+            <span class="close-menu">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <div class="fold-menu-content">
+                <ul class="fold-main-menu">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./productos.html">Productos</a></li>
+                    <li><a href="./about.html">Quiénes somos</a></li>
+                    <li><a href="./faq.html">FAQ</a></li>
+                    <li><a href="./contact.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- fold menu end -->
+
+    <!-- cart -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>carrito</h2>
+            <div class="cart-content">
+                <!-- cart item -->
+                <!-- <div class="cart-item">
+                </div> -->
+                <!-- cart item end -->
+            </div>
+            <div class="cart-footer">
+                <h3>total : $ <span class="cart-total">0</span></h3>
+
+                <!-- boton checkout -->
+                <!-- <form action="/procesar-pago" method="POST">
+                    <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+                        data-preference-id="$$id$$">
+                        </script>
+                </form> -->
+                <!-- boton checkout -->
+
+                <button class="continue-buying">seguir comprando</button>
+                <br>
+                <span class="clear-cart">limpiar carrito</span>            </div>
+        </div>
+    </div>
+    <!-- cart end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+
+    <script src="./scripts/app.js"></script>
+</body>
+
+</html>
